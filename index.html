@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonnow</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="esq"><img src="./assets/img/logo.png" alt="Logo Moonnow"></div>
+            <div class="dir"><ul>
+                <li>QUEM SOMOS</li>
+                <li>NOSSO PROPÓSITO</li>
+                <li>SUPORTE</li>
+            </ul></div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>INSCREVA-SE E <br/>VIAJE PARA A LUA<br/> GRATUITAMENTE</h1>
+            <form action="" onsubmit="return cadastro.receberDados()">
+                    <div>
+                    <input type="text" placeholder="Nome completo" id="nome">
+                    <p id="respostanome"></p>
+                    <input type="email" placeholder="E-mail" id="email">
+                    <p id="respostaemail"></p>
+                    </div>
+                    <div>
+                    <button type="submit" value="Submit" class="but1">Quero ir pra lua!</button>
+                    <button class="but2">Mais informações</button>
+                    <p id="respostacadastro"></p>
+                    </div>
+            </form>
+        </section>
+        <section>
+            <img src="./assets/img/hero-ilustration.png" alt="">
+        </section>
+    </main>
+    <script src="./assets/js/function.js"></script>
+</body>
+</html>
